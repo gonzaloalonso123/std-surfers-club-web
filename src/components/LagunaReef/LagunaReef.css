@@ -1,0 +1,35 @@
+.lagunaReef-container > video {
+  width: 100px;
+  background-color: #103c1a;
+  box-shadow: 25px 0 25px 20px #141414;
+}
+
+.lagunaReef-container {
+  position: relative;
+  height: 100%;
+}
+
+.lagunaReef-title,
+.lagunaReef-enter-button {
+  position: absolute;
+}
+
+.lagunaReef-title,
+.lagunaReef-enter-button {
+  font-family: Interlock;
+  font-size: 6vw;
+  color: white;
+  font-weight: 100;
+  top: 0.2em;
+  right: 0.2em;
+  z-index: 1;
+}
+
+.lagunaReef-enter-button {
+  top: 85%;
+  height: 10%;
+  right: 45%;
+  width: 10%;
+  color: black;
+  font-size: clamp(1em, 3vw, 5vw);
+}

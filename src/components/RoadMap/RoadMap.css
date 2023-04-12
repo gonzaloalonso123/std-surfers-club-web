@@ -1,0 +1,80 @@
+.road-map-container {
+  display: flex;
+  padding: 2% 10%;
+  align-items: top;
+  box-shadow: 30px 30px 30px green;
+  z-index: 10;
+  padding-bottom: 4em;
+}
+
+.road-map-image-container {
+  width: 50%;
+}
+
+.road-map-image {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.phase-list > li {
+  margin-bottom: 1vw;
+  font-family: Brush;
+  font-size: clamp(1em, 2.1vw, 3vw);
+  color: white;
+  font-weight: 600;
+}
+
+.phase-list {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.road-map-phases {
+  top: 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.phase-button {
+  font-family: Brush;
+  font-size: clamp(1.1em, 2.1vw, 3vw);
+  padding: 0.2em 0.4em;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.road-map-phases-buttons-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2em;
+  transition: all .5s;
+}
+
+@media all and (width > 900px) {
+  .road-map-phases-buttons-container {
+    width: 40%;
+    margin-left: 50%;
+  }
+}
+
+.phase-list-container {
+  width: 100%;
+  justify-self: flex-start;
+}
+
+.whitePaper-image {
+  transition: all .2s;
+  max-width: 80%;
+  bottom: 0;
+  justify-self: flex-end;
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+
+.whitePaper-image:hover {
+  transform: scale(1.05);
+}

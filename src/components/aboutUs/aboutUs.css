@@ -1,0 +1,32 @@
+.about-us-container {
+  display: flex;
+  padding: 2% 10%;
+  align-items: top;
+}
+
+.about-us-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-family: Brush;
+  font-size: clamp(1em, 2.1vw, 3vw);
+  color: white;
+}
+
+.mint-now-button {
+  margin-top: 1em;
+  align-self: center;
+  justify-self: center;
+  padding: 0.4em;
+  font-size: 1.8em;
+}
+
+.about-us-surfboards {
+  max-width: 50%;
+  object-fit: contain;
+}
+
+.boards-image {
+  object-fit: contain;
+  max-width: 100%;
+}

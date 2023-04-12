@@ -1,0 +1,38 @@
+.one-faq-container .content {
+  font-family: Interlock;
+  padding: .6em;
+  border-radius: 0px 0px 20px 20px;
+  background-color: white;
+}
+.one-faq-container .header {
+  font-family: Interlock;
+  padding: .6em;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 1s;
+  background-color: white;
+}
+
+.one-faq-container .header.expanded {
+  border-radius: 20px 20px 0px 0px;
+  transition: all 0s;
+}
+
+.one-faq-container {
+  margin-top: 2em;
+}
+
+.faqs-list {
+  width: 90%;
+  max-width: 800px;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: clamp(.8em, 2vw, 2.5vw);
+  margin-top: 3em;
+}

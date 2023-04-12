@@ -1,0 +1,21 @@
+h1 {
+  font-family: Interlock;
+  font-size: 6vw;
+  color: white;
+  font-weight: 100;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  flex-direction: column;
+  background-color: #114b23;
+}
+
+.title-underline {
+  width: 55%;
+  height: 0.3em;
+  background-color: white;
+}
